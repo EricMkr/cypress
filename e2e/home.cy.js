@@ -3,7 +3,7 @@
 describe("Vérification du titre de la page", () => {
   beforeEach(() => {
     // Charge la page (grâce au baseUrl défini dans cypress.config.js)
-    cy.visit("http://127.0.0.1:3000/adwa/index.html");
+    cy.visit("http://localhost:3000");
   });
 
   it("Le titre doit être 'Formulaire Landing Page'", () => {
